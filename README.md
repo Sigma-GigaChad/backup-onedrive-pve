@@ -2,9 +2,8 @@
 How to backup PVE on onedrive using rclone and a script that will execute after each backup
 
 This is based on this script: https://github.com/TheRealAlexV/proxmox-vzbackup-rclone
-Which I recommand following but I have had some problems and to be honest I don't remember which but this script is working for me at least. Note that it does not work with LXC containers for now.
 
-I think it is because I wanted to backup to my NAS localy and then make a second backup on the Cloud.
+The difference is that I wanted to backup to my NAS localy and then make a second backup on the Cloud.
 
 We should also implement backups encryptions like the other script does. Feel free to do it and make a pull request.
 
